@@ -21,25 +21,26 @@ img {
 body {
     color: #343434;}
 header {
-    background: #2F3061;
-    color: #F7FFF7;}
+    background: #424B54;
+    color: #D7CDCC;}
 .projects {
-    background: #F7FFF7;}
+    background: #8D8C90;}
 .work-experience {
-    background: #A1C6D7;}
-/* .education goes here */
+    background: #B2ADAE;}
+.education {
+    background: #C5BDBD;}
 footer {
-    background: #343434;
-    color: #F7FFF7;}
+    background: #CEC5C5;
+    color: #343434;}
 h1 {
     text-align: center;}
 h2 {
     text-align: center;}
 a:link{
     font-weight: bold;
-    color: cornsilk;
+    color: #343434;
 }
 a:visited {
-    color:cornsilk;
+    color:#343434;
     font-weight: normal;
 }
