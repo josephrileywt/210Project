@@ -1,0 +1,45 @@
+.treepics {
+    float: left;
+    width: 30%;
+    padding: 5px;}
+.treepicsr1:after {
+    content: "";
+    clear: both;
+    display: table;}
+.soda {
+    float: left;
+    width: 30%;
+    padding: 5px;}
+.sodarow:after {
+    content: "";
+    clear: both;
+    display: table;}
+img {
+    width: 300px;
+    max-width: 100%;
+}
+body {
+    color: #343434;}
+header {
+    background: #2F3061;
+    color: #F7FFF7;}
+.projects {
+    background: #F7FFF7;}
+.work-experience {
+    background: #A1C6D7;}
+/* .education goes here */
+footer {
+    background: #343434;
+    color: #F7FFF7;}
+h1 {
+    text-align: center;}
+h2 {
+    text-align: center;}
+a:link{
+    font-weight: bold;
+    color: cornsilk;
+}
+a:visited {
+    color:cornsilk;
+    font-weight: normal;
+}
