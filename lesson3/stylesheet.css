@@ -16,31 +16,94 @@
     display: table;}
 img {
     width: 300px;
-    max-width: 100%;
-}
+    max-width: 100%;}
 body {
     color: #343434;}
 header {
     background: #424B54;
-    color: #D7CDCC;}
+    color: #D7CDCC;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;}
+header h2{ 
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #D7CDCC,
+        1px 2px 1px #D7CDCC,
+        1px 3px 1px #D7CDCC, 
+        1px 4px 1px #D7CDCC,
+        1px 5px 1px #D7CDCC,
+        1px 6px 1px #D7CDCC,
+        1px 7px 1px #D7CDCC, 
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2);}
+    header h1{ 
+        text-transform: uppercase;
+        font-family: verdana;
+        font-weight: 700;
+        color: #f5f5f5;
+        text-shadow: 1px 1px 1px #D7CDCC,
+            1px 2px 1px #D7CDCC,
+            1px 3px 1px #D7CDCC,
+            1px 4px 1px #D7CDCC,
+            1px 5px 1px #D7CDCC,
+            1px 6px 1px #D7CDCC,
+            1px 7px 1px #D7CDCC,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2);}
 .projects {
-    background: #8D8C90;}
+    background: #8D8C90;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;}
+.projects a {
+    padding: 8px;
+    background: #424B54;
+    border-radius: 3px;
+    color: #B2ADAE;
+    text-align: center;
+    margin: 1em;
+}
+.projects a:hover {
+    background: rgb(206, 197, 197, 60%);}
 .work-experience {
-    background: #B2ADAE;}
+    background: #B2ADAE;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;}
 .education {
-    background: #C5BDBD;}
+    background: #C5BDBD;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;}
 footer {
     background: #CEC5C5;
-    color: #343434;}
+    color: #343434;
+    padding-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0em;}
 h1 {
     text-align: center;}
 h2 {
     text-align: center;}
-a:link{
+h3 {
+    text-align: center;}
+a {
     font-weight: bold;
-    color: #343434;
-}
-a:visited {
+    color: #343434;}
+a:hover {
     color:#343434;
-    font-weight: normal;
+    font-style: italic;}
+p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1em;
+    font-weight: bold;
+    }
+.contentwrap {
+    margin: 0 auto;
 }
